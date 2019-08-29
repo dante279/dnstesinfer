@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    
+
+
+    <script>
+        const suicidio = 97000;
+
+        numh = parseFloat(prompt("Digite el nuero de horas: "));
+        valorh = parseFloat(prompt("Digite el valor por cada hora: "));
+        co = parseFloat(prompt("Digite el porcentaje de comision: "));
+        ventas = parseFloat(prompt("Digite monto total de las ventas: "));
+
+        comision = ventas * (co/100); 
+
+        sueldo = numh * valorh;
+
+        neto = sueldo + comision;
+
+        document.write("<p> El porcentaje de comision es: " + co + "</p>");
+
+        document.write("<p> El sueldo inicial es: " + sueldo + "</p>");
+
+        document.write("<p> El suedo neto es: " + neto + "</p>");
+
+        if (neto <= 828116){
+            neto += suicidio;
+            console.log("tiene un suicidio de trasporte: ");
+        }
+
+
+
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

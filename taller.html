@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+
+
+
+    <script>
+
+        numh = parseFloat(prompt("Digite el nuero de horas: "));
+        valorh = parseFloat(prompt("Digite el valor por cada hora: "));
+        co = parseFloat(prompt("Digite el porcentaje de comision: "));
+        ventas = parseFloat(prompt("Digite monto total de las ventas: "));
+
+        comision = ventas * (co/100); 
+
+        sueldo = numh * valorh;
+
+        neto = sueldo + comision;
+
+        alert("el porcentaje de comision es: " + co + "\n" + "el sueldo inicial es: " + sueldo + "\n" + "el sueldo Neto es: " + neto);
+
+
+
+          
+
+
+
+
+
+
+
+
+
+
+
+    </script>
+    
+
+
+
+</body>
+</html>
